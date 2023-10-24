@@ -21,6 +21,7 @@ export default function Footer() {
                 <img src={behance} alt="behance" />
                 <img src={googlePlus} alt="googlePlus" />
             </div>
+            
         </footer>
     )
 }

@@ -1,0 +1,11 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-height: 100px;
+}
+
+button img {
+    max-width: 80px;
+    max-height: 80px;
+}
