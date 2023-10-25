@@ -6,9 +6,9 @@ export default function SecaoExperienciaTrabalho() {
     return (
         <section className="exp expLight">
             <div className="txtExp">
-              <h3 className="tituloLight">Experiências De Trabalho</h3>
+              <h3 className="tituloExpLight">Experiências De Trabalho</h3>
               <div className="linha"></div>
-              <p className="paragrafoLight">Há mais de 10 anos no mercado de Branding, Desing Gráfico, Criação de Sites e Marketing Digital, nos empenhamos diariamente para entregar resultados que tragam impacto aos nossos clientes.</p>
+              <p className="paragrafoExpLight">Há mais de 10 anos no mercado de Branding, Desing Gráfico, Criação de Sites e Marketing Digital, nos empenhamos diariamente para entregar resultados que tragam impacto aos nossos clientes.</p>
             </div>
 
           <div className="areaCards">

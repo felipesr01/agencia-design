@@ -6,6 +6,7 @@
     max-height: 100px;
     padding: 10px;
     background-color: #FFFFFF;
+    border-bottom: 1px solid #8a8fa336;
 }
 .topoDark {
     display: flex;
@@ -15,6 +16,7 @@
     max-height: 100px;
     padding: 10px;
     background-color: #252525;
+    border-bottom: 1px solid #8a8fa336;
 }
 
 .logo {

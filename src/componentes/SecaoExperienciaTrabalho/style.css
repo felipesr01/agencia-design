@@ -1,17 +1,28 @@
-.exp {
+.expLight {
     display: flex;
     flex-direction: column;
     text-align: center;
     padding: 100px 30px;
-}
-.expLight {
     background-color: #F6F8FC;
 }
-.tituloLight {
+.expDark {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 100px 30px;
+    background-color: #393838;
+}
+.tituloExpLight {
     color: #32333C;
 }
-.paragrafoLight {
+.paragrafoExpLight {
     color: #8A8FA3;
+}
+.tituloExpDark {
+    color: #CCCCCC;
+}
+.paragrafoExpDark {
+    color: #9F9F9F;
 }
 .txtExp {
     padding: 10px;

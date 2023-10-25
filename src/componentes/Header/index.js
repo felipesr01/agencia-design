@@ -13,7 +13,7 @@ export default function Header() {
 
     const [darkMode, setDarkMode] = useState(false)
 
-    function alteraTema() {
+    const alteraTema = () => {
         setDarkMode(!darkMode)
     }
 

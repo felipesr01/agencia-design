@@ -3,7 +3,7 @@ import './style.css'
 
 export default function SecaoBanner() {
     return (
-        <section className="banner bannerLight">
+        <section className="bannerDark">
             <div className="imgBanner"></div>
             <div className="txtBanner">
                 <p>BRANDING / UI / UX / TECNOLOGIA</p>
