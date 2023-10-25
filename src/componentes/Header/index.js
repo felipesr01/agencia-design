@@ -8,6 +8,9 @@ import sun from '../../assets/sun.png'
 
 export default function Header() {
 
+    const topoDark = 'topoDark'
+    const topoLight = 'topoLight'
+
     const [darkMode, setDarkMode] = useState(false)
 
     function alteraTema() {
@@ -16,7 +19,7 @@ export default function Header() {
 
 
     return (
-        <header className="topo topoLight">
+        <header className={darkMode? topoDark : topoLight}>
             <img className="logo" src={logo} alt="logo"/>
             <button onClick={alteraTema}>
                 <img src={darkMode? sun : moon} alt="lua" />
