@@ -3,8 +3,8 @@ import './style.css'
 
 export default function SecaoBanner() {
     return (
-        <section className="banner">
-            <div></div>
+        <section className="banner bannerLight">
+            <div className="imgBanner"></div>
             <div className="txtBanner">
                 <p>BRANDING / UI / UX / TECNOLOGIA</p>
                 <h2>Agência de Branding</h2>

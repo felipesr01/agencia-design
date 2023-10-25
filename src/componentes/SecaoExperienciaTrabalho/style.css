@@ -1,0 +1,28 @@
+.exp {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 100px 30px;
+}
+.expLight {
+    background-color: #F6F8FC;
+}
+.tituloLight {
+    color: #32333C;
+}
+.paragrafoLight {
+    color: #8A8FA3;
+}
+.txtExp {
+    padding: 10px;
+}
+.txtExp h3 {
+    font-size: 2.5em;
+    margin: 0;
+}
+.linha {
+    margin: 15px auto;
+    background-color: #FEB633;
+    height: 5px;
+    width: 100px;
+}

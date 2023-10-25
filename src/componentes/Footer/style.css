@@ -1,0 +1,35 @@
+.rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 80px 20px 0px 20px;
+}
+
+.rodape p a {
+    color: #FBD214;
+    text-decoration: none;
+    font-weight: bold;
+}
+.rodape p a:hover {
+    text-decoration: underline;
+}
+
+.secaoIcons {
+    display: flex;
+    flex: 1 1 auto;
+    gap: 15px;
+    justify-content: center;
+}
+.icon {
+    max-width: 30px
+}
+
+@media screen and (min-width: 376px) {
+    .icon {
+        max-width: 50px;
+    }
+    .limitaRodape{
+        max-width: 500px;
+    }
+}

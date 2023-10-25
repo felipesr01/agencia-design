@@ -16,8 +16,8 @@ export default function Header() {
 
 
     return (
-        <header>
-            <img src={logo} alt="logo"/>
+        <header className="topo topoLight">
+            <img className="logo" src={logo} alt="logo"/>
             <button onClick={alteraTema}>
                 <img src={darkMode? sun : moon} alt="lua" />
             </button>

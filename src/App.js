@@ -1,3 +1,4 @@
+import './App.css'
 import Footer from "./componentes/Footer";
 import Header from "./componentes/Header";
 import SecaoBanner from "./componentes/SecaoBanner";

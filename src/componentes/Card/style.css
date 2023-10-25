@@ -1,0 +1,27 @@
+.areaCards {
+    display: flex;
+    flex-direction: column;
+}
+.card {
+    border: 1px solid #8a8fa336;
+    padding: 90px 25px;
+    text-align: left;
+}
+h4 {
+    margin: 0;
+    font-size: 1.3em;
+}
+.cardTitulo p {
+    margin: 0;
+}
+
+@media screen and (min-width: 1024px){
+    .areaCards {
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .card {
+        max-width: 250px;
+    }
+}
