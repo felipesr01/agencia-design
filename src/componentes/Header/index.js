@@ -6,23 +6,13 @@ import sun from '../../assets/sun.png'
 
 
 
-export default function Header() {
-
-    const topoDark = 'topoDark'
-    const topoLight = 'topoLight'
-
-    const [darkMode, setDarkMode] = useState(false)
-
-    const alteraTema = () => {
-        setDarkMode(!darkMode)
-    }
-
+export default function Header(props) {
 
     return (
-        <header className={darkMode? topoDark : topoLight}>
+        <header className={props.tema? 'topoDark' : 'topoLight'}>
             <img className="logo" src={logo} alt="logo"/>
-            <button onClick={alteraTema}>
-                <img src={darkMode? sun : moon} alt="lua" />
+            <button onClick={props.alterarTema}>
+                <img src={props.tema? sun : moon} alt="lua" />
             </button>
         </header>
     )

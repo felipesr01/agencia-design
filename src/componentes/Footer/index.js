@@ -8,12 +8,13 @@ import dribble from '../../assets/dribble.png'
 import behance from '../../assets/behance.png'
 import googlePlus from '../../assets/google-plus.png'
 
-export default function Footer() {
+export default function Footer(props) {
+
     return (
-        <footer className="rodape">
+        <footer className={props.tema? 'rodapeDark' : 'rodapeLight'}>
             <img className="logo" src={logo} alt="logo"/>
             <div className="limitaRodape">
-                <p className="paragrafoLight">Ajudamos a criar uma personalidade digital construindo sua marca no ambiente online utilizando estratégias, ferramentas e tecnologias personalizadas.</p>
+                <p className={props.tema? 'paragrafoDark' : 'paragrafoLight'}>Ajudamos a criar uma personalidade digital construindo sua marca no ambiente online utilizando estratégias, ferramentas e tecnologias personalizadas.</p>
                 <div className="secaoIcons">
                     <img className="icon" src={facebook} alt="facebook" />
                     <img className="icon" src={twitter} alt="twitter" />
@@ -23,7 +24,7 @@ export default function Footer() {
                     <img className="icon" src={googlePlus} alt="googlePlus" />
                 </div>
             </div>
-            <p className="paragrafoLight">Copyright 2023 &copy; <a href="https://github.com/felipesr01" target="_blank">Felipe Souza</a></p>
+            <p className={props.tema? 'paragrafoDark' : 'paragrafoLight'}>Copyright 2023 &copy; <a href="https://github.com/felipesr01" target="_blank">Felipe Souza</a></p>
         </footer>
     )
 }

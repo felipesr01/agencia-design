@@ -1,9 +1,10 @@
 import React from "react";
 import './style.css'
 
-export default function SecaoBanner() {
+export default function SecaoBanner(props) {
+
     return (
-        <section className="bannerDark">
+        <section className={props.tema? 'bannerDark' : 'bannerLight'}>
             <div className="imgBanner"></div>
             <div className="txtBanner">
                 <p>BRANDING / UI / UX / TECNOLOGIA</p>

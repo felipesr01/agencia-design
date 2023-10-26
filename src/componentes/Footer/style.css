@@ -1,9 +1,20 @@
-.rodape {
+.rodapeLight {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     padding: 80px 20px 0px 20px;
+    background-color: #FFFFFF;
+    color: #8E94AC;
+}
+.rodapeDark {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 80px 20px 0px 20px;
+    background-color: #252525;
+    color: #7A7E8E;
 }
 
 .rodape p a {
@@ -13,6 +24,21 @@
 }
 .rodape p a:hover {
     text-decoration: underline;
+}
+.rodapeDark p a {
+    color: #FBD214;
+    text-decoration: none;
+    font-weight: bold;
+}
+.rodapeDark p a:hover {
+    text-decoration: underline;
+}
+
+.paragrafoDark {
+    color: #878A9A;
+}
+.paragrafoLight {
+    color: #8A8FA3
 }
 
 .secaoIcons {
